@@ -46,6 +46,20 @@ header a {
   text-decoration: none;
 }
 
+.menu-btn {
+  display: none;
+  cursor: pointer;
+}
+
+.menu-btn span {
+  display: block;
+  height: 2px;
+  width: 30px;
+  background-color: #fff;
+  margin-bottom: 6px;
+  transition: all 0.2s ease;
+}
+
 .profile {
   padding-top: 16px;
   padding-bottom: 24px;
@@ -90,43 +104,6 @@ h2, p {
 footer {
   background-color: #c38c0b;
   color: #fff;
-}
-
-.navbar {
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.menu {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-}
-
-.menu li {
-  padding: 10px;
-}
-
-.menu li a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.menu-btn {
-  display: none;
-  cursor: pointer;
-}
-
-.menu-btn span {
-  display: block;
-  height: 2px;
-  width: 30px;
-  background-color: #fff;
-  margin-bottom: 6px;
-  transition: all 0.2s ease;
 }
 
 @media (max-width:500px) {
